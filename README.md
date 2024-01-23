@@ -1,16 +1,9 @@
-# ninja_id
+# Awesome ID
 
-A new Flutter project.
+Awesome ID is a sample app for android and IOS made in the Flutter framework. 
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Flutter needs to be installed to run the application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app shows an user profile, with a photo and some info (one of which states "CURRENT LEVEL"). We have a floating button that increases the level
