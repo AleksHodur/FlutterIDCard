@@ -20,14 +20,14 @@ class _NinjaCardState extends State<NinjaCard> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[900],
+      backgroundColor: Color.fromARGB(255, 7, 77, 134),
       appBar: AppBar(
-        title: Text('Ninja ID Card',
+        title: Text('Awesome ID Card',
         style: TextStyle(
-          color: Colors.white,
+          color: Colors.pinkAccent,
         ),),
         centerTitle: true,
-        backgroundColor: Colors.grey[850],
+        backgroundColor: Colors.blue[800],
         elevation: 0.0, //deleting shadow
       ),
       floatingActionButton: FloatingActionButton(
@@ -38,9 +38,9 @@ class _NinjaCardState extends State<NinjaCard> {
         },
         child: Icon(
           Icons.add,
-          color: Colors.white,
+          color: Colors.pinkAccent[200],
         ),
-        backgroundColor: Colors.grey[800],
+        backgroundColor: Colors.blue[800],
       ),
       body: Padding(
         padding: EdgeInsets.fromLTRB(30.0, 40.0, 30.0, 0.0),
@@ -55,20 +55,20 @@ class _NinjaCardState extends State<NinjaCard> {
             ),
             Divider(
               height: 60.0, //the space between
-              color: Colors.grey[800],
+              color: Colors.blue[800],
             ),
             Text(
               'NAME',
               style: TextStyle(
-                color: Colors.grey,
+                color: Colors.blue,
                 letterSpacing: 2.0,
               ),
             ),
             SizedBox(height: 10.0),
             Text(
-              'Chun-Li',
+              'Andy',
               style: TextStyle(
-                color: Colors.amberAccent[200],
+                color: Colors.pinkAccent[200],
                 letterSpacing: 2.0,
                 fontSize: 20.0,
                 fontWeight: FontWeight.bold,
@@ -76,9 +76,9 @@ class _NinjaCardState extends State<NinjaCard> {
             ),
             SizedBox(height: 30.0),
             Text(
-              'CURRENT NINJA LEVEL',
+              'CURRENT LEVEL',
               style: TextStyle(
-                color: Colors.grey,
+                color: Colors.blue,
                 letterSpacing: 2.0,
               ),
             ),
@@ -86,7 +86,7 @@ class _NinjaCardState extends State<NinjaCard> {
             Text(
               '$ninjaLevel',
               style: TextStyle(
-                color: Colors.amberAccent[200],
+                color: Colors.pinkAccent[200],
                 letterSpacing: 2.0,
                 fontSize: 20.0,
                 fontWeight: FontWeight.bold,
@@ -97,13 +97,13 @@ class _NinjaCardState extends State<NinjaCard> {
               children: [
                 Icon(
                   Icons.email,
-                  color: Colors.grey[400],
+                  color: Colors.blue[400],
                 ),
                 SizedBox(width: 10.0),
                 Text(
-                  'chun.li@ninja.com',
+                  'andy@crazymail.com',
                   style: TextStyle(
-                    color: Colors.grey[400],
+                    color: Colors.blue[400],
                     fontSize: 18.0,
                     letterSpacing: 1.0,
                   )
